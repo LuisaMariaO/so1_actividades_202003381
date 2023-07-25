@@ -29,7 +29,7 @@ Cuando el sistema informático está ejecutando una aplicación de usuario, el s
 Cuando se arranca el sistema, el hardware se inicia en el modo kernel . El sistema operativo se carga y se inician las aplicaciones de usuario en el modo usuario. Cuando se produce una excepción o interrupción, el hardware conmuta del modo de usuario al modo kernel (es decir, cambia el estado del bit de modo a 0). En consecuencia, cuando el sistema operativo obtiene el control de la computadora, estará en el modo kernel. El sistema siempre cambia al modo de usuario (poniendo el bit de modo a 1) antes de pasar el control a un programa de usuario.
 >Nota: El modo kernel también es conocido como modo de supervisor, modo del sistema o modo privilegiado.
 
-![Transición de modo usuario a modo kernel](/assets/modes.PNG)
+![Transición de modo usuario a modo kernel](/assets/modes.png "Figura 1. Transición de modo usuario a nodo kernel. Fuente: Fundamentos de sistemas operativos")
 
 ### Referencias
 Félix, G. C. (2015, October 1). _Análisis, diseño e implementación de un módulo Linux para el acceso a servidores NFS_. https://e-archivo.uc3m.es/handle/10016/26134
