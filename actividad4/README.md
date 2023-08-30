@@ -29,7 +29,7 @@ sudo nano actividad4.service
 
 En el editor que se abre escribo la información necesaria, como la descripción del servicio, la ubicación del script, el usuario que lo creó y su grupo, además de indicarle que se repita cada 30 segundos.
 
-![Cuerpo del archivo actividad4.service](/assets/nano.png)
+![Cuerpo del archivo actividad4.service](/actividad4/assets/nano.png)
 
 Al finalizar, presionar _Ctrl+O_ para guardar y _Ctrl+X_ para salir del editor.
 
@@ -52,7 +52,8 @@ sudo systemctl status actividad4.service
 ```
 
 Se obtiene una salida como la siguiente:
-![Estado del servicio](/assets//status.png)
+
+![Estado del servicio](/actividad4/assets//status.png)
 
 Para ver los mensajes impresos por el servicio, tenemos el siguiente comando:
 
@@ -60,7 +61,9 @@ Para ver los mensajes impresos por el servicio, tenemos el siguiente comando:
 sudo journalctl -u actividad4.service
 ```
 Y podemos ver la siguiente salida:
-![Mensajes del servicio](/assets/msg.png)
+
+![Mensajes del servicio](/actividad4/assets/msg.png)
+
 En la salida se puede identificar cuándo el servicio comienza, cuándo imprime el saludo y la fecha y hora actuales, cuándo termina y se reinicia.
 
 Por último, es posible parar el servicio con el siguiente comando:
